@@ -1,24 +1,18 @@
 .card_conteiner {
-  background-color: brown;
+  margin: 10px;
+  max-width: max-content;
   width: 400px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  border: 0.1em solid black;
+  border: 0.1em solid #d3d3d3;
 }
 
 .card_article{
-  background-color: yellow;
-  width: 360px;
-  
-  
-  justify-content: center;
-  align-items: center;
-  
-
+  background-color: #FFF;
+  text-align: center;
 }
 
 .card_title {
@@ -37,4 +31,27 @@
   color: black;
   margin-bottom: 0.8em;
   padding: 0.4em 0.8em;
+}
+
+.container_btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 50px;
+  margin: 0 5px;
+  gap: 10px;
+}
+
+.card_btn1 {
+  padding: 0.4em;
+  background-color: #eb4b4ec2;
+  color: #FFF;
+  border-radius: 5px;
+}
+
+.card_btn2 {
+  padding: 0.4em;
+  border: 1px solid #d3d3d3;
+  color: #d3d3d3;
+  border-radius: 5px;
 }
