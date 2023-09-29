@@ -39,3 +39,20 @@ button {
   cursor: pointer; 
   border: none;
 }
+
+@media (max-width: 600px) {
+  .prin_title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header {
+    display: grid;
+    justify-content: center;
+  }
+
+  .usercard {
+    display: flex;
+    flex-direction: column;
+  }
+}

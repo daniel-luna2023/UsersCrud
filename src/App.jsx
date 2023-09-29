@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="body">
       <header className="header">
-        <h1 className="prin_title">User Crud</h1>
+        <h1 className="prin_title">Usuarios</h1>
         <button className="prin_btn" onClick={handleOpenForm} ><i class='bx bx-plus bx-sm'></i>Open Form</button>
       </header>    
       <FormUser
