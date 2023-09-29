@@ -27,8 +27,10 @@ const UserCard = ({ user, deleteUsers, setInfoUpdate, handleOpenForm }) => {
         </li>
       </ul>
       <hr />
-      <button className="card_btn" onClick={handleDelete}><i className='bx bxs-trash'></i></button>
-      <button className="card_btn" onClick={handleEdit}><i className='bx bxs-edit-alt'></i></button>
+      <div className="container_btn">
+      <button className="card_btn1" onClick={handleDelete}><i className='bx bxs-trash bx-sm'></i></button>
+      <button className="card_btn2" onClick={handleEdit}><i className='bx bxs-edit-alt bx-sm'></i></button>
+      </div>
     </article>
     </div>
   );

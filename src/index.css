@@ -6,7 +6,14 @@
 
 body{
   margin: 0;
-  font-family: 'Montserrat', sans-serif;;
+  font-family: 'Montserrat', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  gap: 20px;
 }
 
 h1,
@@ -31,4 +38,21 @@ button {
   font-family: inherit;
   cursor: pointer; 
   border: none;
+}
+
+@media (max-width: 600px) {
+  .prin_title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .header {
+    display: grid;
+    justify-content: center;
+  }
+
+  .usercard {
+    display: flex;
+    flex-direction: column;
+  }
 }
